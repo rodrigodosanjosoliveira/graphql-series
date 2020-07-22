@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace GraphQLDotNetCore.Migrations
 {
-    public partial class InitialDbMigration : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -43,27 +43,27 @@ namespace GraphQLDotNetCore.Migrations
             migrationBuilder.InsertData(
                 table: "Owners",
                 columns: new[] { "Id", "Address", "Name" },
-                values: new object[] { new Guid("514c3bc3-14df-4515-bc13-256e75dd2e9f"), "John Doe's address", "John Doe" });
+                values: new object[] { new Guid("f823b9b8-6390-4acb-b873-dd5bc9daf12f"), "John Doe's address", "John Doe" });
 
             migrationBuilder.InsertData(
                 table: "Owners",
                 columns: new[] { "Id", "Address", "Name" },
-                values: new object[] { new Guid("791716be-7eff-4370-814e-3884d27ae682"), "Jane Doe's address", "Jane Doe" });
+                values: new object[] { new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"), "Jane Doe's address", "Jane Doe" });
 
             migrationBuilder.InsertData(
                 table: "Accounts",
                 columns: new[] { "Id", "Description", "OwnerId", "Type" },
-                values: new object[] { new Guid("cb9ffd28-1fb2-4ce9-9f39-497bdf8a5096"), "Cash account for our users", new Guid("514c3bc3-14df-4515-bc13-256e75dd2e9f"), 0 });
+                values: new object[] { new Guid("b88fa14f-0444-4014-b093-8cffd3456675"), "Cash account for our users", new Guid("f823b9b8-6390-4acb-b873-dd5bc9daf12f"), 0 });
 
             migrationBuilder.InsertData(
                 table: "Accounts",
                 columns: new[] { "Id", "Description", "OwnerId", "Type" },
-                values: new object[] { new Guid("4855d973-eb70-48f1-a619-a2d62ce124d3"), "Savings account for our users", new Guid("791716be-7eff-4370-814e-3884d27ae682"), 1 });
+                values: new object[] { new Guid("0681d722-79f4-4df8-aede-14f58b7dfe2e"), "Savings account for our users", new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"), 1 });
 
             migrationBuilder.InsertData(
                 table: "Accounts",
                 columns: new[] { "Id", "Description", "OwnerId", "Type" },
-                values: new object[] { new Guid("c810d02e-5235-45ff-80b4-34bca427479f"), "Income account for our users", new Guid("791716be-7eff-4370-814e-3884d27ae682"), 3 });
+                values: new object[] { new Guid("29dc76c2-5332-4d16-96cc-08f610de2bbe"), "Income account for our users", new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"), 3 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Accounts_OwnerId",

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj": {}
+    "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj": {
+    "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
         "projectName": "GraphQLDotNetCore",
-        "projectPath": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\obj\\",
+        "projectPath": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,12 +79,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.4.20258.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

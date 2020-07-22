@@ -3344,11 +3344,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "Ovt61jY8PmpHXhoVspooIDt5p7BEBZXCk3Vc5dn7W2KovMB/rw5vl5CFnXKVyZ3fOaisH0Y5rgch6pSENoXt5w==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3382,11 +3383,12 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "TYMlUtap163laRt+gyCs3XhXlqKJPYqIekJZSZyS63eO8rDOVG6lZFbbLW1uIYjEVIgyXZCjk/q/Mm9gY6Qd3Q==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3567,11 +3569,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "CGEt0Z3FnH8tiIaNE3Xsmj3vgVMjso0fcosnvuBhPuNQzKCPlS0ZNq99KHB9LUEWyrsy2cD/lc0LJa0gdpKG9w==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3605,11 +3608,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "GlM4POAMf+Dj/9pjnh5EB4W1VUtZeR0LZ/FB8MfHMGMQ1Mirqy0rB+0JIWq+FoDl4oDNp2gw49yF3nipoOxLuQ==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6718,7 +6722,7 @@
       ]
     },
     "System.Text.Encodings.Web/4.4.0": {
-      "sha512": "t9sy+jX5nm8IairT4espzjfvz0nwER4GVmnFKLvA2TkahtBXIDoUsS+ljfSMuIT3rejXylXmQkhom3YRTpuTCA==",
+      "sha512": "l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
       "type": "package",
       "path": "system.text.encodings.web/4.4.0",
       "files": [
@@ -7367,23 +7371,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\rodri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
       "projectName": "GraphQLDotNetCore",
-      "projectPath": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a\\Desktop\\GraphQL\\Part1\\End\\GraphQLDotNetCore\\GraphQLDotNetCore\\obj\\",
+      "projectPath": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
+      "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rodri\\source\\repos\\graphql-series\\Part1-end\\GraphQLDotNetCore\\GraphQLDotNetCore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7448,12 +7448,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7462,7 +7456,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.4.20258.7\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

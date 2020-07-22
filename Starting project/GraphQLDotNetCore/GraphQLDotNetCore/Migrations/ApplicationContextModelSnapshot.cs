@@ -15,7 +15,7 @@ namespace GraphQLDotNetCore.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.4")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -43,23 +43,23 @@ namespace GraphQLDotNetCore.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("baab1c53-0c94-42c7-898e-9ca324bd8ca3"),
+                            Id = new Guid("b88fa14f-0444-4014-b093-8cffd3456675"),
                             Description = "Cash account for our users",
-                            OwnerId = new Guid("2c22c84d-563b-49a4-b36d-1b40c47735d8"),
+                            OwnerId = new Guid("f823b9b8-6390-4acb-b873-dd5bc9daf12f"),
                             Type = 0
                         },
                         new
                         {
-                            Id = new Guid("ad5ea9b0-00ed-442d-b6cc-cc54020cb93c"),
+                            Id = new Guid("0681d722-79f4-4df8-aede-14f58b7dfe2e"),
                             Description = "Savings account for our users",
-                            OwnerId = new Guid("482d51db-5e3f-46b9-bd9f-7303bcb4b4b9"),
+                            OwnerId = new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"),
                             Type = 1
                         },
                         new
                         {
-                            Id = new Guid("9769d8ae-8177-4ebd-becd-d1ce1e2fbcb6"),
+                            Id = new Guid("29dc76c2-5332-4d16-96cc-08f610de2bbe"),
                             Description = "Income account for our users",
-                            OwnerId = new Guid("482d51db-5e3f-46b9-bd9f-7303bcb4b4b9"),
+                            OwnerId = new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"),
                             Type = 3
                         });
                 });
@@ -84,13 +84,13 @@ namespace GraphQLDotNetCore.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("2c22c84d-563b-49a4-b36d-1b40c47735d8"),
+                            Id = new Guid("f823b9b8-6390-4acb-b873-dd5bc9daf12f"),
                             Address = "John Doe's address",
                             Name = "John Doe"
                         },
                         new
                         {
-                            Id = new Guid("482d51db-5e3f-46b9-bd9f-7303bcb4b4b9"),
+                            Id = new Guid("98153f44-7cf6-418a-bc4c-1d9380e7abf5"),
                             Address = "Jane Doe's address",
                             Name = "Jane Doe"
                         });
